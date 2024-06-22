@@ -1,14 +1,15 @@
 # APMT - A Highly advanced PDF manipulation tool
 
-A highly advanced pdf **page** manipulation tool
+A highly advanced PDF **page** manipulation tool
 
-To learn how to use, write `python main_program.py --help`
+To learn how to use the cli arguments, write `python main_program.py --help`
 
 To install the dependencies, run `pip install -r requirements.txt`
 
-## How to write the custom filetype
+## How to write the bookmarks data file
 
-There are certain rules to follow when writing the filetype:
+It is reccomended to name the bookmarks file `bookmarks.txt`, though the program accepts any name
+There are certain rules to follow when writing the file data:
 
 ```
 SHIFTAMOUNT 10
@@ -54,3 +55,5 @@ Section 2: Electromagnetic Radiation and Quantum Phenomena, 51
     Wave-Particle Duality, 60
     Exam-style Questions, 65
 ```
+
+
